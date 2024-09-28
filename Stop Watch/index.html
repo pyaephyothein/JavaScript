@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Responsive Video Background</title>
+</head>
+<body>
+    <div class="video-container">
+        <!-- Background video -->
+        <video autoplay loop muted playsinline class="backgroundClip">
+            <source src="images/c.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+        <!-- Content on top of the video -->
+        <div class="container">
+            <div class="watchText">
+                <div class="stopWatch">00:00:00</div>
+                <p class="mSecond">0000</p> 
+            </div>
+            
+            <div class="buttonDiv">
+                <button class="startText button">Start</button>
+                <button class="pauseText button">Pause</button>
+                <button class="continueText button">Continue</button>
+                <button class="restartText button">Restart</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
