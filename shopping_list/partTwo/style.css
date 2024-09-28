@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(58, 58, 58);
+}
+.container {
+    display: block;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.form-control{
+    max-width: 500px;
+    
+    
+}
+
+.shoppingListContainer {
+    margin-top: 20px;
+    
+    
+}
+.productName{
+    cursor: pointer;
+    background-color: whitesmoke;
+    padding: 15px;
+    border-radius: 5px;
+    user-select: none;
+    display: inline;
+
+}
+
+.purchased {
+    text-decoration: line-through;
+}
+
+.fa-trash-can {
+    color: white;
+    font-size: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.productContainer {
+    margin-bottom: 30px;
+    
+}

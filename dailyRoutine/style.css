@@ -1,0 +1,52 @@
+body {
+    background: linear-gradient(to right,
+        rgba(53, 138, 191, 1),
+        rgba(99, 187, 242, 1),
+        rgba(2, 101, 140, 1),
+        rgba(101, 202, 242, 1),
+        rgba(3, 135, 165, 1)
+    );
+}
+
+
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    
+}
+.form-control {
+    max-width: 500px;
+    border-radius: 5px;
+
+}
+.shoppingListContainer{
+    margin-top: 20px;
+}
+
+.parentsDiv {
+    margin-bottom: 20px;
+}
+
+.yourList {
+    display: inline;
+    background-color: antiquewhite;
+    padding: 10px;
+    border-radius: 10px;
+
+    cursor: pointer;
+    user-select: none;
+    
+}
+.textLine {
+    text-decoration: line-through;
+}
+
+.fa-trash-can {
+    color: white;
+    font-size: 20px;
+    margin-left: 15px;
+    text-align: center;
+    cursor: pointer;
+}

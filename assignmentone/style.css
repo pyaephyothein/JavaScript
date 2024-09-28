@@ -1,0 +1,21 @@
+body {
+    background-color: blanchedalmond;
+}
+.formContaier {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+.form-control{
+    max-width: 500px;
+}
+.list-group-item{
+    display: list-item;
+}
+.list-group {
+    list-style: decimal inside;
+}
+.listContainer {
+    margin-top: 20px;
+}
