@@ -14,14 +14,18 @@
             <div class="playList"></div>
             <div class="Music">
                 <div class="photos">
-                    <img src="images/9847586.jpg" alt="play for music" class="images">
+                    <img src="images/9847586.jpg" alt="play for music" class="images" id="trackImages">
                 </div>
                 <audio src="" class="play" > </audio>
                 <div id="playingTime" class="playingTime"> 00:00 / 00:00</div>
                 <div class="repeatAndShfell">
-                    <i class="fa-solid fa-repeat controlOne"></i>
+                    <i class="fa-solid fa-repeat controlOne" id="repeatButton">
+                        <span class="One" style="display: none;">1</span>  <!-- Initially hidden -->
+                    </i>
                     <i class="fa-solid fa-shuffle controlOne"></i>
                 </div>
+                
+                
                 <div id="progressBar">
                     <div id="currentProgress"></div>
                 </div>
